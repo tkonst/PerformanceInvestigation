@@ -18,7 +18,7 @@ open class BenchmarkTests {
         const val EXPECTED_TIME_SINGLE_SHOT = 17.0
         const val EXPECTED_AVERAGE_TIME = 15.0
         const val EXPECTED_AVERAGE_TIME_COLD_MODE = 13.5
-        const val EXPECTED_AVERAGE_TIME_HOT_MODE = 20.0
+        const val EXPECTED_AVERAGE_TIME_HOT_MODE = 16.0
     }
 
     @Test
