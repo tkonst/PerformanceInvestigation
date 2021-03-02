@@ -49,7 +49,7 @@ open class BenchmarkTests {
         assertOutputs(results, EXPECTED_AVERAGE_TIME)
     }
 
-   // @Test
+    @Test
     @Throws(RunnerException::class)
     fun test15TimesSingleShot() {
         val opt = OptionsBuilder()
