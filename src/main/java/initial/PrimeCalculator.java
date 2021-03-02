@@ -1,3 +1,5 @@
+package initial;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
@@ -30,7 +32,7 @@ public class PrimeCalculator {
         }
     }
 
-    private static List<Integer> getPrimes() throws InterruptedException {
+    public static List<Integer> getPrimes() throws InterruptedException {
         List<Integer> primeNumbers = Collections.synchronizedList(new LinkedList<>());
         int maxPrime = 200_000;
         List<BigIntegerIterator> myFiller = Stream.generate(new Supplier<BigIntegerIterator>() {
